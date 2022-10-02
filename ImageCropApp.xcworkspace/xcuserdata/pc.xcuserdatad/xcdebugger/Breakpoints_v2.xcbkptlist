@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "943D5112-2DB4-4E1F-AAEB-FDCD087BB0A4"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A42DBDE0-AF1F-4E46-87F9-E207C0C5C9B6"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Pods/IGRPhotoTweaks/IGRPhotoTweaks/IGRPhotoTweakViewController+PHPhotoLibrary.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "14"
+            endingLineNumber = "14"
+            landmarkName = "saveToLibrary(image:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2EAFD2FD-ADF4-4027-B253-E9B2F143DF6B"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ImageCropApp/Controller/StickerView/JLStickerImageView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "270"
+            endingLineNumber = "270"
+            landmarkName = "textShadowOffset"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "2EAFD2FD-ADF4-4027-B253-E9B2F143DF6B - 960e0a03cc0d3c05"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ImageCropApp.JLStickerImageView.textShadowOffset.modify : Swift.Optional&lt;__C.CGSize&gt;"
+                  moduleName = "ImageCropApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/pc/Desktop/ImageCropApp/ImageCropApp/Controller/StickerView/JLStickerImageView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "20">
+               </Location>
+               <Location
+                  uuid = "2EAFD2FD-ADF4-4027-B253-E9B2F143DF6B - 85cb8d13643af179"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ImageCropApp.JLStickerImageView.textShadowOffset.modify : Swift.Optional&lt;__C.CGSize&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "ImageCropApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/pc/Desktop/ImageCropApp/ImageCropApp/Controller/StickerView/JLStickerImageView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "270"
+                  endingLineNumber = "270"
+                  offsetFromSymbolStart = "17">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "37245881-A9E9-4D25-8522-8666D550003B"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ImageCropApp/Controller/StickerView/JLStickerImageView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "282"
+            endingLineNumber = "282"
+            landmarkName = "textShadowColor"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "37245881-A9E9-4D25-8522-8666D550003B - cfed634673f2ea15"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ImageCropApp.JLStickerImageView.textShadowColor.modify : Swift.Optional&lt;__C.UIColor&gt;"
+                  moduleName = "ImageCropApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/pc/Desktop/ImageCropApp/ImageCropApp/Controller/StickerView/JLStickerImageView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "20">
+               </Location>
+               <Location
+                  uuid = "37245881-A9E9-4D25-8522-8666D550003B - 7d32b3ee57a0e5ca"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ImageCropApp.JLStickerImageView.textShadowColor.modify : Swift.Optional&lt;__C.UIColor&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "ImageCropApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/pc/Desktop/ImageCropApp/ImageCropApp/Controller/StickerView/JLStickerImageView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "282"
+                  endingLineNumber = "282"
+                  offsetFromSymbolStart = "17">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B5B5C56B-10B7-4FED-BDFA-EED89A7435E4"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ImageCropApp/Controller/StickerView/JLStickerImageView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "294"
+            endingLineNumber = "294"
+            landmarkName = "textShadowBlur"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "B5B5C56B-10B7-4FED-BDFA-EED89A7435E4 - 178b835313e29ccb"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ImageCropApp.JLStickerImageView.textShadowBlur.modify : Swift.Optional&lt;CoreGraphics.CGFloat&gt;"
+                  moduleName = "ImageCropApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/pc/Desktop/ImageCropApp/ImageCropApp/Controller/StickerView/JLStickerImageView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "20">
+               </Location>
+               <Location
+                  uuid = "B5B5C56B-10B7-4FED-BDFA-EED89A7435E4 - f66b2fc61786efee"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ImageCropApp.JLStickerImageView.textShadowBlur.modify : Swift.Optional&lt;CoreGraphics.CGFloat&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "ImageCropApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/pc/Desktop/ImageCropApp/ImageCropApp/Controller/StickerView/JLStickerImageView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "294"
+                  endingLineNumber = "294"
+                  offsetFromSymbolStart = "17">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

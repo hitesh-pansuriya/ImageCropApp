@@ -1,0 +1,24 @@
+PODS:
+  - CropViewController (2.6.1)
+  - HorizontalDial (4.0)
+  - IGRPhotoTweaks (1.0.7)
+
+DEPENDENCIES:
+  - CropViewController
+  - HorizontalDial
+  - IGRPhotoTweaks
+
+SPEC REPOS:
+  trunk:
+    - CropViewController
+    - HorizontalDial
+    - IGRPhotoTweaks
+
+SPEC CHECKSUMS:
+  CropViewController: 58fb440f30dac788b129d2a1f24cffdcb102669c
+  HorizontalDial: 50b43d3d12b9024688c40633ccab46066911846f
+  IGRPhotoTweaks: 8fe6b62c6599238d860b19b46a85a454e202f502
+
+PODFILE CHECKSUM: 2920e912b97fc76dc05b64b5f812d5012e49703b
+
+COCOAPODS: 1.11.2

@@ -1,0 +1,524 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4F21B99228C5EA5100CDC1C3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F21B99128C5EA5100CDC1C3 /* AppDelegate.swift */; };
+		4F21B99628C5EA5100CDC1C3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F21B99528C5EA5100CDC1C3 /* ViewController.swift */; };
+		4F21B99928C5EA5100CDC1C3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F21B99728C5EA5100CDC1C3 /* Main.storyboard */; };
+		4F21B99C28C5EA5100CDC1C3 /* ImageCropApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4F21B99A28C5EA5100CDC1C3 /* ImageCropApp.xcdatamodeld */; };
+		4F21B99E28C5EA5300CDC1C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F21B99D28C5EA5300CDC1C3 /* Assets.xcassets */; };
+		4F21B9A128C5EA5300CDC1C3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F21B99F28C5EA5300CDC1C3 /* LaunchScreen.storyboard */; };
+		4F21B9AC28C6254F00CDC1C3 /* EditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F21B9AB28C6254F00CDC1C3 /* EditViewController.swift */; };
+		4F743D0528D198FC00EF0AF5 /* CalcuteFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F743D0028D198FC00EF0AF5 /* CalcuteFunctions.swift */; };
+		4F743D0628D198FC00EF0AF5 /* adjustToFitFontOrWidth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F743D0128D198FC00EF0AF5 /* adjustToFitFontOrWidth.swift */; };
+		4F743D0728D198FC00EF0AF5 /* JLStickerLabelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F743D0228D198FC00EF0AF5 /* JLStickerLabelView.swift */; };
+		4F743D0828D198FC00EF0AF5 /* JLAttributedTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F743D0328D198FC00EF0AF5 /* JLAttributedTextView.swift */; };
+		4F743D0928D198FC00EF0AF5 /* JLStickerImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F743D0428D198FC00EF0AF5 /* JLStickerImageView.swift */; };
+		4F7D057F28CC896E00AF7162 /* ChoosingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F7D057E28CC896E00AF7162 /* ChoosingViewController.swift */; };
+		4F8A814E28CB0942002870A2 /* FilterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F8A814D28CB0942002870A2 /* FilterViewController.swift */; };
+		4F988FB228CF118500C4127F /* AddTextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F988FB128CF118500C4127F /* AddTextViewController.swift */; };
+		4FB8AB8C28C9C49C002B011C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F21B99328C5EA5100CDC1C3 /* SceneDelegate.swift */; };
+		4FF1D9B828C75BA3003C8D0E /* ImageSaver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FF1D9B728C75BA3003C8D0E /* ImageSaver.swift */; };
+		675C604CFB77234B8CD9F5E4 /* Pods_ImageCropApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 307B5DE8501C4AE6B07C9CE0 /* Pods_ImageCropApp.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		307B5DE8501C4AE6B07C9CE0 /* Pods_ImageCropApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ImageCropApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F21B98E28C5EA5100CDC1C3 /* ImageCropApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImageCropApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F21B99128C5EA5100CDC1C3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4F21B99328C5EA5100CDC1C3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		4F21B99528C5EA5100CDC1C3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4F21B99828C5EA5100CDC1C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4F21B99B28C5EA5100CDC1C3 /* ImageCropApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ImageCropApp.xcdatamodel; sourceTree = "<group>"; };
+		4F21B99D28C5EA5300CDC1C3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4F21B9A028C5EA5300CDC1C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4F21B9A228C5EA5300CDC1C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4F21B9AB28C6254F00CDC1C3 /* EditViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditViewController.swift; sourceTree = "<group>"; };
+		4F743D0028D198FC00EF0AF5 /* CalcuteFunctions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalcuteFunctions.swift; sourceTree = "<group>"; };
+		4F743D0128D198FC00EF0AF5 /* adjustToFitFontOrWidth.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = adjustToFitFontOrWidth.swift; sourceTree = "<group>"; };
+		4F743D0228D198FC00EF0AF5 /* JLStickerLabelView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JLStickerLabelView.swift; sourceTree = "<group>"; };
+		4F743D0328D198FC00EF0AF5 /* JLAttributedTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JLAttributedTextView.swift; sourceTree = "<group>"; };
+		4F743D0428D198FC00EF0AF5 /* JLStickerImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JLStickerImageView.swift; sourceTree = "<group>"; };
+		4F7D057E28CC896E00AF7162 /* ChoosingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChoosingViewController.swift; sourceTree = "<group>"; };
+		4F8A814D28CB0942002870A2 /* FilterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterViewController.swift; sourceTree = "<group>"; };
+		4F988FB128CF118500C4127F /* AddTextViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTextViewController.swift; sourceTree = "<group>"; };
+		4FF1D9B728C75BA3003C8D0E /* ImageSaver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageSaver.swift; sourceTree = "<group>"; };
+		85E8C6C378DD6E81BE669F2B /* Pods-ImageCropApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ImageCropApp.release.xcconfig"; path = "Target Support Files/Pods-ImageCropApp/Pods-ImageCropApp.release.xcconfig"; sourceTree = "<group>"; };
+		C49EDD1097B410E1080E430C /* Pods-ImageCropApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ImageCropApp.debug.xcconfig"; path = "Target Support Files/Pods-ImageCropApp/Pods-ImageCropApp.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4F21B98B28C5EA5100CDC1C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				675C604CFB77234B8CD9F5E4 /* Pods_ImageCropApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4F21B98528C5EA5100CDC1C3 = {
+			isa = PBXGroup;
+			children = (
+				4F21B99028C5EA5100CDC1C3 /* ImageCropApp */,
+				4F21B98F28C5EA5100CDC1C3 /* Products */,
+				8E3902B20EE8246A3A190966 /* Pods */,
+				B0D3661F0805F8AE10A0CE44 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4F21B98F28C5EA5100CDC1C3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4F21B98E28C5EA5100CDC1C3 /* ImageCropApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4F21B99028C5EA5100CDC1C3 /* ImageCropApp */ = {
+			isa = PBXGroup;
+			children = (
+				4F21B99128C5EA5100CDC1C3 /* AppDelegate.swift */,
+				4F21B99328C5EA5100CDC1C3 /* SceneDelegate.swift */,
+				4F21B9AA28C624F700CDC1C3 /* Model */,
+				4F21B9A828C6249900CDC1C3 /* Controller */,
+				4F21B9A928C624D600CDC1C3 /* View */,
+				4F21B99D28C5EA5300CDC1C3 /* Assets.xcassets */,
+				4F21B99F28C5EA5300CDC1C3 /* LaunchScreen.storyboard */,
+				4F21B9A228C5EA5300CDC1C3 /* Info.plist */,
+				4F21B99A28C5EA5100CDC1C3 /* ImageCropApp.xcdatamodeld */,
+			);
+			path = ImageCropApp;
+			sourceTree = "<group>";
+		};
+		4F21B9A828C6249900CDC1C3 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				4F21B99528C5EA5100CDC1C3 /* ViewController.swift */,
+				4F7D057E28CC896E00AF7162 /* ChoosingViewController.swift */,
+				4F21B9AB28C6254F00CDC1C3 /* EditViewController.swift */,
+				4F8A814D28CB0942002870A2 /* FilterViewController.swift */,
+				4F988FB128CF118500C4127F /* AddTextViewController.swift */,
+				4FF1D9B728C75BA3003C8D0E /* ImageSaver.swift */,
+				4F21B99728C5EA5100CDC1C3 /* Main.storyboard */,
+				4F49907A28D088FF00D2AE49 /* StickerView */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		4F21B9A928C624D600CDC1C3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		4F21B9AA28C624F700CDC1C3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4F49907A28D088FF00D2AE49 /* StickerView */ = {
+			isa = PBXGroup;
+			children = (
+				4F743D0128D198FC00EF0AF5 /* adjustToFitFontOrWidth.swift */,
+				4F743D0028D198FC00EF0AF5 /* CalcuteFunctions.swift */,
+				4F743D0328D198FC00EF0AF5 /* JLAttributedTextView.swift */,
+				4F743D0428D198FC00EF0AF5 /* JLStickerImageView.swift */,
+				4F743D0228D198FC00EF0AF5 /* JLStickerLabelView.swift */,
+			);
+			path = StickerView;
+			sourceTree = "<group>";
+		};
+		8E3902B20EE8246A3A190966 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C49EDD1097B410E1080E430C /* Pods-ImageCropApp.debug.xcconfig */,
+				85E8C6C378DD6E81BE669F2B /* Pods-ImageCropApp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B0D3661F0805F8AE10A0CE44 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				307B5DE8501C4AE6B07C9CE0 /* Pods_ImageCropApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4F21B98D28C5EA5100CDC1C3 /* ImageCropApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4F21B9A528C5EA5300CDC1C3 /* Build configuration list for PBXNativeTarget "ImageCropApp" */;
+			buildPhases = (
+				EE7EE2F5E335A0BBE8C87881 /* [CP] Check Pods Manifest.lock */,
+				4F21B98A28C5EA5100CDC1C3 /* Sources */,
+				4F21B98B28C5EA5100CDC1C3 /* Frameworks */,
+				4F21B98C28C5EA5100CDC1C3 /* Resources */,
+				7716B852EE029B48F8EF0F14 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ImageCropApp;
+			productName = ImageCropApp;
+			productReference = 4F21B98E28C5EA5100CDC1C3 /* ImageCropApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4F21B98628C5EA5100CDC1C3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					4F21B98D28C5EA5100CDC1C3 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+				};
+			};
+			buildConfigurationList = 4F21B98928C5EA5100CDC1C3 /* Build configuration list for PBXProject "ImageCropApp" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4F21B98528C5EA5100CDC1C3;
+			productRefGroup = 4F21B98F28C5EA5100CDC1C3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4F21B98D28C5EA5100CDC1C3 /* ImageCropApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4F21B98C28C5EA5100CDC1C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F21B9A128C5EA5300CDC1C3 /* LaunchScreen.storyboard in Resources */,
+				4F21B99E28C5EA5300CDC1C3 /* Assets.xcassets in Resources */,
+				4F21B99928C5EA5100CDC1C3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7716B852EE029B48F8EF0F14 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ImageCropApp/Pods-ImageCropApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ImageCropApp/Pods-ImageCropApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ImageCropApp/Pods-ImageCropApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EE7EE2F5E335A0BBE8C87881 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ImageCropApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4F21B98A28C5EA5100CDC1C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F743D0728D198FC00EF0AF5 /* JLStickerLabelView.swift in Sources */,
+				4F743D0828D198FC00EF0AF5 /* JLAttributedTextView.swift in Sources */,
+				4F21B9AC28C6254F00CDC1C3 /* EditViewController.swift in Sources */,
+				4FF1D9B828C75BA3003C8D0E /* ImageSaver.swift in Sources */,
+				4F8A814E28CB0942002870A2 /* FilterViewController.swift in Sources */,
+				4F988FB228CF118500C4127F /* AddTextViewController.swift in Sources */,
+				4F21B99628C5EA5100CDC1C3 /* ViewController.swift in Sources */,
+				4F743D0928D198FC00EF0AF5 /* JLStickerImageView.swift in Sources */,
+				4F7D057F28CC896E00AF7162 /* ChoosingViewController.swift in Sources */,
+				4F21B99C28C5EA5100CDC1C3 /* ImageCropApp.xcdatamodeld in Sources */,
+				4F743D0628D198FC00EF0AF5 /* adjustToFitFontOrWidth.swift in Sources */,
+				4F21B99228C5EA5100CDC1C3 /* AppDelegate.swift in Sources */,
+				4FB8AB8C28C9C49C002B011C /* SceneDelegate.swift in Sources */,
+				4F743D0528D198FC00EF0AF5 /* CalcuteFunctions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4F21B99728C5EA5100CDC1C3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4F21B99828C5EA5100CDC1C3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4F21B99F28C5EA5300CDC1C3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4F21B9A028C5EA5300CDC1C3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4F21B9A328C5EA5300CDC1C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4F21B9A428C5EA5300CDC1C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4F21B9A628C5EA5300CDC1C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C49EDD1097B410E1080E430C /* Pods-ImageCropApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = U7XVUW953J;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ImageCropApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = betahub.ImageCropApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4F21B9A728C5EA5300CDC1C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 85E8C6C378DD6E81BE669F2B /* Pods-ImageCropApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = U7XVUW953J;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ImageCropApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = betahub.ImageCropApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4F21B98928C5EA5100CDC1C3 /* Build configuration list for PBXProject "ImageCropApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F21B9A328C5EA5300CDC1C3 /* Debug */,
+				4F21B9A428C5EA5300CDC1C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4F21B9A528C5EA5300CDC1C3 /* Build configuration list for PBXNativeTarget "ImageCropApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F21B9A628C5EA5300CDC1C3 /* Debug */,
+				4F21B9A728C5EA5300CDC1C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		4F21B99A28C5EA5100CDC1C3 /* ImageCropApp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				4F21B99B28C5EA5100CDC1C3 /* ImageCropApp.xcdatamodel */,
+			);
+			currentVersion = 4F21B99B28C5EA5100CDC1C3 /* ImageCropApp.xcdatamodel */;
+			path = ImageCropApp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 4F21B98628C5EA5100CDC1C3 /* Project object */;
+}
